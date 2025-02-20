@@ -8,7 +8,7 @@ spec:
     namespace: test-ns
     server: 'https://kubernetes.default.svc'
   source:
-    path: 0-Demo_Files/Nginx_Deployment
+    path: manifest
     repoURL: 'https://github.com/yashjain10038/argo-basics.git'
     targetRevision: HEAD
   project: default
